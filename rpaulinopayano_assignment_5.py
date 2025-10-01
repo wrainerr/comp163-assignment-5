@@ -12,3 +12,12 @@ while current_number > 1:
 print()
 print("Steps:", step_count)
 print()
+print("=== Challenge 2: Prime Number Checker ===")
+prime_input = int(input("Enter a number: "))
+print(f"Testing divisors from 2 to {prime_input-1}...")
+for i in range(2, prime_input):
+    if prime_input % i == 0:
+        print(f"{prime_input} is not prime (divisible by {i})")
+        break
+else:
+    print(f"{prime_input} is prime!")
