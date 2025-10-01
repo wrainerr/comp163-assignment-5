@@ -1,7 +1,3 @@
-Of course! Here is the `README.md` file based on the provided assignment details and your Python code.
-
-***
-
 # COMP 163: Assignment 5 - Loop Mastery
 
 This repository contains the Python solutions for the "Loop Mastery" assignment. The project includes three challenges, each designed to demonstrate proficiency with a different type of loop structure: `while` loops, `for` loops, and nested `for` loops.
