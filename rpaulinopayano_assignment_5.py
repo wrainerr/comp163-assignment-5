@@ -21,3 +21,15 @@ for i in range(2, prime_input):
         break
 else:
     print(f"{prime_input} is prime!")
+print()
+print("=== Challenge 3: Multiplication Table ===")
+print("Multiplication Table:")
+for i in range (1, 11):
+    print(f"{i:2}", end="")
+for row in range(1, 11):
+    print(f"{row:2}", end="")
+    for col in range(1, 11):
+        product = row * col
+        print(f"{product:4}", end="")
+    print(" ",end="")
+    print()
